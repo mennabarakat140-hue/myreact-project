@@ -1,0 +1,55 @@
+:root{
+    --white: #fefefe;
+    --black: #333;
+    --dark-blue: #173B63;
+    --light-blue: #678DB2;
+    --gray: #F4F6F8;
+}
+
+.footer{
+    background-color: #333;
+    color: var(--white);
+    padding: 10px;
+}
+.links{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+ul{
+    list-style: none;
+    padding: 10px;
+}
+li{
+    margin-bottom: 10px;
+    transition: 0.3s;
+}
+a{
+    text-decoration: none;
+    color: var(--white);
+}
+h3{
+    padding-left: 10px;
+}
+li:hover{
+    transform: translateX(3px);
+}
+.follow{
+    text-align: center;
+}
+.faceicon{
+    height: 40px;
+    width: 40px;
+    color: var(--light-blue);
+}
+.copy{
+    width: 15px;
+    height: 15px;
+    color: var(--light-blue);
+}
+.copywrite{
+    padding: 20px;
+    text-align: center;
+    
+}
+
